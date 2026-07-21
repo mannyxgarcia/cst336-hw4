@@ -1,7 +1,22 @@
 <nav>
-  <a href="index.html" class="active">Home</a>
-  <a href="connection.html">How We Connected</a>
-  <a href="websites.html">Popular Websites</a>
-  <a href="modern.html">Then to Now</a>
-  <a href="sources.html">Sources</a>
+  <a href="/" class="<%= currentPage === 'home' ? 'active' : '' %>"> Home </a>
+
+  <a
+    href="/connection"
+    class="<%= currentPage === 'connection' ? 'active' : '' %>"
+  >
+    How We Connected
+  </a>
+
+  <a href="/websites" class="<%= currentPage === 'websites' ? 'active' : '' %>">
+    Popular Websites
+  </a>
+
+  <a href="/modern" class="<%= currentPage === 'modern' ? 'active' : '' %>">
+    Then to Now
+  </a>
+
+  <a href="/sources" class="<%= currentPage === 'sources' ? 'active' : '' %>">
+    Sources
+  </a>
 </nav>

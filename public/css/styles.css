@@ -56,11 +56,19 @@ nav a {
   font-weight: bold;
   margin: 0 15px;
   text-decoration: underline;
+  padding: 8px 12px;
 }
 
 nav a:hover {
   color: #ffff00;
   background-color: #330066;
+}
+
+nav a.active {
+  background-color: #ffff00;
+  color: #000066;
+  border: 2px inset white;
+  text-decoration: none;
 }
 
 .grid-layout {
@@ -177,12 +185,6 @@ footer a {
 .column ul {
   padding-left: 20px;
   line-height: 1.8;
-}
-
-nav a.active {
-  background-color: #ffff00;
-  color: #000066;
-  border: 2px inset #ffffff;
 }
 
 .sources {

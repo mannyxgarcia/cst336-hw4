@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+
+  <body>
+    <div id="main_div">
+      <%- include('partials/header.ejs') %> <%- include('partials/nav.ejs') %>
+
+      <main class="grid-layout">
+        <aside class="sidebar">
+          <h2>What's New</h2>
+          <p><strong>NEW!</strong> Added facts about dial-up Internet.</p>
+          <p><strong>NEW!</strong> More coming soon!</p>
+
+          <h2>Cool Links</h2>
+          <ul>
+            <li>
+              <a href="https://archive.org/web/" target="_blank"
+                >Internet Archive</a
+              >
+            </li>
+            <li>
+              <a href="https://www.webdesignmuseum.org/" target="_blank"
+                >Web Design Museum</a
+              >
+            </li>
+          </ul>
+        </aside>
+
+        <section class="page_content">
+          <h2>How We Connected</h2>
+
+          <figure>
+            <img src="/img/dial-up.gif" alt="Dial-up modem" />
+            <figcaption>
+              Connecting to the Internet often required a telephone line and a
+              modem.
+            </figcaption>
+          </figure>
+
+          <p>
+            During the late 1990s and early 2000s, many families connected to
+            the Internet using dial-up service. A computer would use a modem to
+            call an Internet Service Provider (ISP) over a regular telephone
+            line. Before a connection was established, the modem produced a
+            series of beeps and static sounds that became one of the most
+            recognizable sounds of the early Internet.
+          </p>
+
+          <p>
+            Most dial-up connections operated at speeds up to 56 Kbps. Compared
+            to today's broadband and fiber Internet, downloading even a small
+            file could take several minutes. Because the phone line was being
+            used, someone could not make or receive a telephone call while the
+            computer was connected to the Internet.
+          </p>
+
+          <p>
+            Companies such as AOL, EarthLink, and MSN made it easier for
+            beginners to get online. Millions of promotional CDs were mailed to
+            homes offering free trial hours, making it simple for new users to
+            experience email, web browsing, and chat rooms for the first time.
+          </p>
+
+          <p>
+            Around the early 2000s, broadband Internet began replacing dial-up
+            connections. Cable and DSL services provided much faster speeds
+            while allowing users to stay connected continuously without tying up
+            the telephone line. This change helped make online gaming, music
+            downloads, video streaming, and larger websites much more practical.
+          </p>
+        </section>
+
+        <aside class="sidebar">
+          <h2>Fun Fact</h2>
+          <p>
+            A common dial-up speed was only <strong>56 Kbps</strong>. Today,
+            many home Internet connections are thousands of times faster.
+          </p>
+
+          <h2>Top Sites Back Then</h2>
+          <ul>
+            <li>Yahoo!</li>
+            <li>AOL</li>
+            <li>MSN</li>
+            <li>MySpace</li>
+          </ul>
+        </aside>
+      </main>
+
+      <%- include('partials/footer.ejs') %>
+    </div>
+  </body>
+</html>
