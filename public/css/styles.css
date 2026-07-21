@@ -1,0 +1,210 @@
+body {
+  background-color: black;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 30px 30px;
+  color: white;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  padding: 20px; /* Top padding */
+}
+
+#main_div {
+  width: 1050px;
+  margin: 0 auto;
+  border: 4px double #66ffff;
+  background-color: #080020;
+  box-shadow: 0 0 25px #6633ff;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to bottom, #000066, #000033);
+  border-bottom: 3px solid #66ffff;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #66ffff;
+  text-shadow: 4px 4px #ff00ff;
+  margin: 0;
+}
+
+header h2 {
+  color: #ff66ff;
+  font-size: 28px;
+}
+
+.visitor_counter {
+  color: #ffff00;
+  font-weight: bold;
+  background-color: black;
+  border: 2px inset #00ff00;
+  display: inline-block;
+  padding: 8px 14px;
+}
+
+nav {
+  text-align: center;
+  background-color: black;
+  padding: 12px;
+  border-bottom: 3px solid #66ffff;
+}
+
+nav a {
+  color: #00ffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #ffff00;
+  background-color: #330066;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  min-height: 600px;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #250066, #120033);
+  padding: 18px;
+  border-right: 2px solid #66ffff;
+  border-left: 2px solid #66ffff;
+}
+
+.sidebar h2 {
+  color: #ffff00;
+  text-shadow: 2px 2px #ff00ff;
+  border-bottom: 2px solid #9999ff;
+  padding-bottom: 8px;
+}
+
+.sidebar p,
+.sidebar li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sidebar a {
+  color: #00ffff;
+}
+
+.page_content {
+  background-color: black;
+  padding: 35px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #ffff00;
+  font-size: 50px;
+  text-shadow: 3px 3px #ff00ff;
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 19px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.highlight {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.computer-gif {
+  width: 150px;
+  height: auto;
+}
+
+figure {
+  margin: 20px auto;
+  border: 3px ridge #00ff00;
+  padding: 15px;
+  background-color: #111111;
+  width: 340px;
+}
+
+figure img {
+  width: 300px;
+  max-width: 100%;
+  border: 2px solid #ffff00;
+}
+
+figcaption {
+  color: #ff66ff;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+footer {
+  background: linear-gradient(to bottom, #000066, #000033);
+  border-top: 3px solid #66ffff;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+footer a {
+  color: #00ffff;
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.column {
+  background-color: #111111;
+  border: 3px ridge #00ffff;
+  padding: 20px;
+}
+
+.column h3 {
+  color: #ffff00;
+  text-align: center;
+  margin-top: 0;
+  text-shadow: 2px 2px #ff00ff;
+}
+
+.column ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+nav a.active {
+  background-color: #ffff00;
+  color: #000066;
+  border: 2px inset #ffffff;
+}
+
+.sources {
+  margin-top: 40px;
+  padding: 20px;
+  border: 3px ridge #00ffff;
+  background-color: #111111;
+}
+
+.sources h2 {
+  color: #ffff00;
+  text-shadow: 2px 2px #ff00ff;
+}
+
+.sources ul {
+  line-height: 2;
+}
+
+.sources a {
+  color: #00ffff;
+}
+
+.sources a:hover {
+  color: #ffff00;
+}
