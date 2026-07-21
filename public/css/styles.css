@@ -44,19 +44,22 @@ header h2 {
 }
 
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
   background-color: black;
-  padding: 12px;
+  padding: 12px 20px;
   border-bottom: 3px solid #66ffff;
 }
 
 nav a {
   color: #00ffff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 0 15px;
   text-decoration: underline;
-  padding: 8px 12px;
+  padding: 10px 14px;
+  white-space: nowrap;
 }
 
 nav a:hover {
