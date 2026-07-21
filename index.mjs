@@ -27,6 +27,12 @@ app.get('/modern', (req, res) => {
   });
 });
 
+app.get('/slang', (req, res) => {
+  res.render('slang', {
+    currentPage: 'slang',
+  });
+});
+
 app.get('/sources', (req, res) => {
   res.render('sources', {
     currentPage: 'sources',

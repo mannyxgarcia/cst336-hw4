@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+
+  <body>
+    <div id="main_div">
+      <%- include('partials/header.ejs') %> <%- include('partials/nav.ejs') %>
+
+      <main class="grid-layout">
+        <%- include('partials/left-sidebar.ejs') %>
+
+        <section class="page_content">
+          <h2>From Then to Now</h2>
+          <figure>
+            <img
+              src="img/modern-internet.gif"
+              class="computer-gif"
+              alt="Modern Internet"
+            />
+            <figcaption>
+              The Internet has evolved from slow dial-up connections to
+              high-speed networks available almost everywhere.
+            </figcaption>
+          </figure>
+          <p>
+            Over the past two decades, the Internet has changed dramatically.
+            What once required a desktop computer, a phone line, and patience
+            can now be accessed instantly from nearly any smartphone, tablet, or
+            laptop. Faster connections and improved technology have made the
+            Internet an essential part of everyday life.
+          </p>
+          <div class="comparison">
+            <div class="column">
+              <h3>Early Internet (1995–2005)</h3>
+              <ul>
+                <li>Dial-up Internet (56 Kbps)</li>
+                <li>Desktop computers</li>
+                <li>Yahoo! directories</li>
+                <li>AIM chat rooms</li>
+                <li>GeoCities personal websites</li>
+                <li>Downloaded MP3 music</li>
+                <li>Waiting several minutes for images to load</li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>Modern Internet</h3>
+              <ul>
+                <li>Fiber, Wi-Fi, and 5G connections</li>
+                <li>Smartphones and tablets</li>
+                <li>Google search</li>
+                <li>Discord, WhatsApp, and Messenger</li>
+                <li>Social media platforms</li>
+                <li>Streaming music and movies</li>
+                <li>Instant access to videos and cloud services</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Today's Internet is faster, more reliable, and available almost
+            everywhere. Video calls, online gaming, cloud storage, and streaming
+            services have become common because of major improvements in
+            networking technology. Although the early Internet was much slower,
+            it introduced many of the ideas that continue to shape the web
+            today.
+          </p>
+          <p class="highlight">
+            Looking back at the early Internet reminds us how quickly technology
+            can change. Many of the websites, services, and technologies from
+            the early 2000s inspired the modern online experiences that millions
+            of people use every day.
+          </p>
+        </section>
+
+        <%- include('partials/right-sidebar.ejs') %>
+      </main>
+      <%- include('partials/footer.ejs') %>
+    </div>
+  </body>
+</html>

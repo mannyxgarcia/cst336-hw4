@@ -7,25 +7,7 @@
       <%- include('partials/header.ejs') %> <%- include('partials/nav.ejs') %>
 
       <main class="grid-layout">
-        <aside class="sidebar">
-          <h2>What's New</h2>
-          <p><strong>NEW!</strong> Added facts about dial-up Internet.</p>
-          <p><strong>NEW!</strong> More coming soon!</p>
-
-          <h2>Cool Links</h2>
-          <ul>
-            <li>
-              <a href="https://archive.org/web/" target="_blank"
-                >Internet Archive</a
-              >
-            </li>
-            <li>
-              <a href="https://www.webdesignmuseum.org/" target="_blank"
-                >Web Design Museum</a
-              >
-            </li>
-          </ul>
-        </aside>
+        <%- include('partials/left-sidebar.ejs') %>
 
         <section class="page_content">
           <h2>How We Connected</h2>
@@ -71,21 +53,7 @@
           </p>
         </section>
 
-        <aside class="sidebar">
-          <h2>Fun Fact</h2>
-          <p>
-            A common dial-up speed was only <strong>56 Kbps</strong>. Today,
-            many home Internet connections are thousands of times faster.
-          </p>
-
-          <h2>Top Sites Back Then</h2>
-          <ul>
-            <li>Yahoo!</li>
-            <li>AOL</li>
-            <li>MSN</li>
-            <li>MySpace</li>
-          </ul>
-        </aside>
+        <%- include('partials/right-sidebar.ejs') %>
       </main>
 
       <%- include('partials/footer.ejs') %>

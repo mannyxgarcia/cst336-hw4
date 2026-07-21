@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+
+  <body>
+    <div id="main_div">
+      <%- include('partials/header.ejs') %> <%- include('partials/nav.ejs') %>
+
+      <main class="grid-layout">
+        <%- include('partials/left-sidebar.ejs') %>
+
+        <section class="page_content">
+          <h2>Popular Websites</h2>
+          <figure>
+            <img
+              src="img/online_now.gif"
+              class="computer-gif"
+              alt="Early Internet websites"
+            />
+            <figcaption>
+              Many classic websites helped shape online culture in the late
+              1990s and early 2000s.
+            </figcaption>
+          </figure>
+          <p>
+            Before social media became popular, people explored the Internet
+            through search engines, personal websites, chat rooms, and online
+            communities. Many of these websites introduced new ways to
+            communicate, share information, and express creativity. While some
+            have disappeared or changed dramatically, they helped build the
+            foundation of today's web.
+          </p>
+          <h3>Yahoo!</h3>
+          <p>
+            Yahoo! was one of the most popular websites on the Internet. It
+            served as both a search engine and a directory where users could
+            browse categories such as news, sports, shopping, and entertainment.
+            For many people, Yahoo! was their homepage every time they opened a
+            web browser.
+          </p>
+          <h3>AOL Instant Messenger (AIM)</h3>
+          <p>
+            AIM allowed friends and family to chat with each other in real time.
+            Users created screen names, customized away messages, and waited to
+            hear the famous notification sound whenever a buddy signed online.
+            Instant messaging quickly became one of the most popular ways to
+            communicate over the Internet.
+          </p>
+          <h3>GeoCities</h3>
+          <p>
+            GeoCities gave anyone the opportunity to build a personal website
+            without needing advanced programming knowledge. Many pages featured
+            colorful backgrounds, animated GIFs, visitor counters, guestbooks,
+            and flashing text. It became one of the most recognizable examples
+            of early web design.
+          </p>
+          <h3>Napster</h3>
+          <p>
+            Napster changed the way people shared music online by allowing users
+            to exchange MP3 files directly with one another. Although it became
+            involved in major copyright lawsuits, it introduced many people to
+            peer-to-peer file sharing and influenced future online music
+            services.
+          </p>
+          <h3>MySpace</h3>
+          <p>
+            Launched in the early 2000s, MySpace became one of the first major
+            social networking websites. Users could customize their profile
+            pages with music, colors, images, and HTML, making every profile
+            unique. It helped pave the way for modern social media platforms.
+          </p>
+        </section>
+
+        <%- include('partials/right-sidebar.ejs') %>
+      </main>
+
+      <%- include('partials/footer.ejs') %>
+    </div>
+  </body>
+</html>

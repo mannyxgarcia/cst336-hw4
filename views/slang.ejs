@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %>
+
+  <body>
+    <div id="main_div">
+      <%- include('partials/header') %> <%- include('partials/nav') %>
+
+      <main class="grid-layout">
+        <%- include('partials/left-sidebar') %>
+
+        <section class="page_content">
+          <h2>Internet Slang</h2>
+
+          <figure>
+            <img src="/img/chatroom.gif" class="computer-gif" alt="Chat room" />
+            <figcaption>
+              Chat rooms and instant messaging introduced many of the
+              abbreviations that are still used online today.
+            </figcaption>
+          </figure>
+
+          <p>
+            Before smartphones and social media, people spent hours chatting in
+            AOL Instant Messenger, MSN Messenger, IRC, and online forums. Since
+            typing quickly was important, many users shortened common phrases
+            into abbreviations. Some of these terms are still popular today.
+          </p>
+
+          <table class="slang-table">
+            <tr>
+              <th>Slang</th>
+              <th>Meaning</th>
+            </tr>
+
+            <tr>
+              <td>LOL</td>
+              <td>Laugh Out Loud</td>
+            </tr>
+
+            <tr>
+              <td>BRB</td>
+              <td>Be Right Back</td>
+            </tr>
+
+            <tr>
+              <td>AFK</td>
+              <td>Away From Keyboard</td>
+            </tr>
+
+            <tr>
+              <td>TTYL</td>
+              <td>Talk To You Later</td>
+            </tr>
+
+            <tr>
+              <td>OMG</td>
+              <td>Oh My God</td>
+            </tr>
+
+            <tr>
+              <td>ROFL</td>
+              <td>Rolling On the Floor Laughing</td>
+            </tr>
+
+            <tr>
+              <td>L33T</td>
+              <td>"Elite" written using numbers and symbols</td>
+            </tr>
+
+            <tr>
+              <td>ASL?</td>
+              <td>Age / Sex / Location?</td>
+            </tr>
+          </table>
+
+          <p>
+            Although Internet communication has changed over the years,
+            abbreviations like <strong>LOL</strong>, <strong>BRB</strong>, and
+            <strong>OMG</strong> are still recognized around the world. They are
+            reminders of how online culture developed during the early days of
+            the web.
+          </p>
+        </section>
+
+        <%- include('partials/right-sidebar') %>
+      </main>
+
+      <%- include('partials/footer') %>
+    </div>
+  </body>
+</html>

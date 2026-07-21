@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+
+
+  <body>
+    <div id="main_div">
+      <%- include('partials/header.ejs') %> <%- include('partials/nav.ejs') %>
+
+      <main class="grid-layout">
+        <%- include('partials/left-sidebar.ejs') %>
+
+
+        <section class="sources">
+          <h2>Sources</h2>
+          <p>
+            The information on this website was researched and paraphrased from
+            the following sources:
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.computerhistory.org/internethistory/"
+                target="_blank"
+              >
+                Computer History Museum – Internet History
+              </a>
+            </li>
+            <li>
+              <a href="https://www.webdesignmuseum.org/" target="_blank">
+                Web Design Museum
+              </a>
+            </li>
+            <li>
+              <a href="https://archive.org/web/" target="_blank">
+                Internet Archive: Wayback Machine
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Dial-up_Internet_access"
+                target="_blank"
+              >
+                Dial-up Internet Access
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/AOL_Instant_Messenger"
+                target="_blank"
+              >
+                AOL Instant Messenger
+              </a>
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/GeoCities" target="_blank">
+                GeoCities
+              </a>
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Napster" target="_blank">
+                Napster
+              </a>
+            </li>
+          </ul>
+          
+          <p>
+            The dot background was done with stack overflow code:
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://stackoverflow.com/questions/55364127/making-a-dotted-grid-with-css"
+                target="_blank"
+              >
+                Stack Overflow: Making a dotted grid with CSS
+              </a>
+            </li>
+          </ul>
+            
+          <p>
+            The color palette was inspired by the original 1996 Space Jam Website
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.webdesignmuseum.org/gallery/space-jam-1996"
+                target="_blank"
+              >
+                Web Design Museum – Space Jam (1996)
+              </a>
+            </li>
+        </section>
+
+        <%- include('partials/right-sidebar.ejs') %>
+
+      </main>
+
+      <%- include('partials/footer.ejs') %>
+
+    </div>
+  </body>
+</html>

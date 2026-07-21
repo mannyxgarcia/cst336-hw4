@@ -210,3 +210,26 @@ footer a {
 .sources a:hover {
   color: #ffff00;
 }
+
+.slang-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.slang-table th {
+  background: #000066;
+  color: yellow;
+  padding: 12px;
+  border: 2px solid cyan;
+}
+
+.slang-table td {
+  border: 2px solid cyan;
+  padding: 10px;
+  background: #111;
+}
+
+.slang-table tr:hover {
+  background: #330066;
+}
