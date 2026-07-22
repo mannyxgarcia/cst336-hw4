@@ -1,15 +1,24 @@
 <aside class="sidebar">
-  <h2>Fun Fact</h2>
-  <p>
-    A common dial-up speed was only <strong>56 Kbps</strong>. Today, many home
-    Internet connections are thousands of times faster.
-  </p>
+  <%- include("fortune") %>
 
-  <h2>Top Sites Back Then</h2>
-  <ul>
-    <li>Yahoo!</li>
-    <li>AOL</li>
-    <li>MSN</li>
-    <li>MySpace</li>
-  </ul>
+<div class="online-box">
+
+    <h2>Who's Online?</h2>
+
+    <img
+        src="/img/online_now.gif"
+        class="online-gif"
+        alt="Online Now"
+    >
+
+<ul class="buddy-list">
+  <% screenNames.forEach((name) => { %>
+    <li>
+      <span class="online-status">●</span>
+      <span class="screen-name"><%= name %></span>
+    </li>
+  <% }) %>
+</ul>
+
+</div>
 </aside>
